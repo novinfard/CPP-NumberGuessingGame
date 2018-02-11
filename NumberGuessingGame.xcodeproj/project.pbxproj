@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CD86E730202F97460007F817 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD86E72F202F97460007F817 /* main.cpp */; };
+		CD86E738202FA8A20007F817 /* GussingGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD86E736202FA8A20007F817 /* GussingGame.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		CD86E72C202F97460007F817 /* NumberGuessingGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NumberGuessingGame; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD86E72F202F97460007F817 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CD86E736202FA8A20007F817 /* GussingGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GussingGame.cpp; sourceTree = "<group>"; };
+		CD86E737202FA8A20007F817 /* GussingGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GussingGame.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				CD86E72F202F97460007F817 /* main.cpp */,
+				CD86E736202FA8A20007F817 /* GussingGame.cpp */,
+				CD86E737202FA8A20007F817 /* GussingGame.hpp */,
 			);
 			path = NumberGuessingGame;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD86E738202FA8A20007F817 /* GussingGame.cpp in Sources */,
 				CD86E730202F97460007F817 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
